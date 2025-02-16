@@ -1,0 +1,23 @@
+-Spring JavaEE için açık kaynak bir Frameworktur
+--framework nedir? içerisinde daha önceden hazırlanmış olan class lar interfacler bulunduran
+ve aynı zamanda belirli kuralları olan ve probleme çözüm sunan bir yazılım iskeletidir ya da yazılım catılarıdır.
+--Spring EJB ye alternatif olarak çıkmıştır.
+--Spring uygulama geliştirme frameworküdür.
+--Spring kurumsal uygulaalar geliştirmek için kullanılan en popüler frameworlerden birisidir.
+--Bağımlılık enjeksiyonu tasarım kalıbı üzerine oturtulmuş "Spring framework"çekirdek yapısı bize birbirinden bağımsiz
+sistemler inşa etmemizi saplar
+--bir class ın bağımlı oldupu objeyi o anda classın içerisine vermek yerine daha sonra ihtiyaç anında içerisine ekelme
+işlemine dependency injection  yani bağımlılık enjeksiyonu denir.
+--disayn  pattern .bir başkası bir sorunla karşılaşıyor ve o sorunu çözüyor.dependency injection bir disayn paterndır.
+-- Beans : spring tarafından oluşturulan objelerdir.
+--core container context kısmında springin oluşturduğu beanler yani objeler tutulur ve biz istediğimizde bize hep aynı
+--objeyi verir ve biz bu sayde tekrar tekrar obje oluşturmaktan kurtuluruz.
+--springin core containeri  factory disayn pattern ı kullanarak  beanleri oluşturur.beanleri oluşturuken eğer bir bağımlılığa ihtiyacı varsa bağımlılığıda içerisine
+enjekte eder ve bize hazır olarak verir.
+--core contaniner anote edilen classların 1 er tane objesin oluşturu.ve bu objeler spring tarafından üretildiği için artık
+spring beans denir.ve bunlar defalarca kullanılabilir.eğer obje spring tarafından üretilirse spring tarafından yönetilir.
+
+Spring container ı ne yapar
+-1-Bağımlılıkları Objeye Enjekte etmek(Dependency Injection: DI)
+-2-Objeleri üretmek ve yönetmek (Inversion of control: IoC)
+
